@@ -131,7 +131,6 @@ top:7px;
 
 .feature-text {
 grid-column:2/4;
-letter-spacing:0.25rem;
 }
 
 h2 {
@@ -279,9 +278,17 @@ margin-bottom:2px;
 a:hover {
 color:#FFE4B7;
 }
-
-@media only screen and(max-width:350px) {
+@media only screen and(max-width:416px) {
   #pricing {
     display:block;
        }
 }
+ @media only screen and (max-width:416px) {
+  #features {
+    padding:0;
+    margin:0;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap:1rem;  
+    }
+ }
