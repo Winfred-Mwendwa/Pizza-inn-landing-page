@@ -278,7 +278,7 @@ margin-bottom:2px;
 a:hover {
 color:#FFE4B7;
 }
-@media only screen and(max-width:416px) {
+@media only screen and (max-width:416px) {
   #pricing {
     display:block;
        }
