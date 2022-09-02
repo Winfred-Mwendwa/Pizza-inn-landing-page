@@ -258,17 +258,17 @@ color:#dadada;
 #insta {
 position:relative;
 left:6px;
-color:#007E4B;
+color:#F9B142;
 }
 
 #fb {
-color:#007E4B;
+color:#F9B142;
 padding:2px;
 border-radius:2px;
 }
 
 #twitter {
-color:#007E4B;
+color:#F9B142;
 padding:1px;
 border-radius:2px;
 }
@@ -292,6 +292,10 @@ color:#FFE4B7;
     display:grid;
     grid-template-columns: repeat(2, 1fr);
      
+    }
+    header {
+      display:block;
+
     }
  
   
