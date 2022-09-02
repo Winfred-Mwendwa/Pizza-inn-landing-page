@@ -283,7 +283,7 @@ color:#FFE4B7;
 @media only screen and (max-width:416px) {
   #pricing {
     display:block;
-    margin:0 auto;
+    margin: auto;
        }
 
   #features {
@@ -298,10 +298,6 @@ color:#FFE4B7;
 
     }
  
-  
-  .feature-text {
-    column-width:1.5rem !important; 
-        }
   .feature-icon {
     justify-items: center;
   }
